@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icone.png" href="imagens/icone.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css" >
+    
+</head>
+<body>
+    <header>
+        <div class="logoAlura">
+            <h1><img src="imagens/logoAlura.png" alt="Logo Alura" ></h1>
+            <nav>
+                <ul>
+                    <li><a href="https://www.alura.com.br/challenges/challenge-one-logica">Sobre</a></li>
+                    <li><a href="https://github.com/tamashiros">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/keiichitamashiro-analisedesenvolvimentodesistema/"> Linkedin</a> </li>
+    
+                </ul>
+            </nav>
+        </div>        
+    </header>
+
+    <img class="banner" src="imagens/banner.png">
+    
+    <main>      
+
+        <section>
+
+            <div class="descricao">
+                <h6>Encriptografe ou Descriptografe o código para sua segurança, simples e rápido. Basta preencher o campo.</h6>
+            </div> 
+
+            <textarea class="text-area" cols="35" rows="5" placeholder= "  Digite seu texto"></textarea>
+    
+            <div class="informacao">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+    
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="boneco">
+                <img src="imagens/boneco.png" alt="Boneco">
+            </div>
+        </section>
+        
+        <section>            
+            <textarea class="mensagem" cols="25" rows="10"></textarea>
+            <button id="btn-copiar"> Copiar </button>
+
+        </section>
+
+    </main> 
+
+    <footer>
+        <img src= "imagens/time.png" >
+        <p class="copyright">&copy;  Projeto KEIICHI TAMASHIRO One - Alura - 2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

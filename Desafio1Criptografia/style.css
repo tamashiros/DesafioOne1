@@ -1,0 +1,158 @@
+* {
+    font-family: 'Barlow Semi Condensed', sem serifa;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+header {
+    background: linear-gradient(#FFFFFF 2%,#BBBBBB) ;
+    padding: 1em 0;
+    margin: 0 auto;     
+}
+
+.logoAlura{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 15px;
+    right: 0;    
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #0A3871;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Barlow Semi Condensed', sem serifa;    
+    text-decoration: none;
+}
+
+.banner{
+    width: 100%;
+    display:flex ; 
+}
+
+.descricao{
+    color: #495057;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: -40px;
+}
+
+main {
+    background: #E5E5E5;
+    display: inline-flex;
+    margin: 0 auto;
+    padding: 90px 0;    
+}
+
+.text-area {
+    text-align: center;
+    color: #0A3871;
+    margin-top: 30px;
+    text-transform: lowercase;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    border-color: #0A3871;
+    border-radius: 20px;
+    border: 2px solid #0A3871;
+    box-shadow: 2px 2px 10px 5px #0A3871; 
+}
+
+::placeholder {color: #0A3871 ;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background: white;
+    border: 2px solid #0A3871;
+    border-radius: 20px;
+    color: #0A3871;
+    margin-left: 68px;
+    margin-top: auto;
+    padding-left: 20px;
+    position: relative;
+    box-shadow: 2px 2px 10px 5px #0A3871; 
+}
+
+
+.boneco {    
+    background-repeat: no-repeat;    
+    position: relative;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 28px;
+    margin-left: 80px;    
+}
+
+.btn-desencriptar {
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 14px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 37px;
+    margin-left: 40px;
+    width: 200px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 14px;
+    color: white;
+    cursor: pointer;
+    height: 37px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+#btn-copiar {
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 14px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 37px;
+    margin-left: 128px;
+    width: 168px;
+    position: relative;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(#E5E5E5 20% , #5f7dff);
+    padding: 10px 0px;
+  }
+
+  .copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+  }
+
+
+
+ 
