@@ -15,5 +15,6 @@ Desencriptador foi um projeto em que pude colocar em prática e consolidar os co
 
  
  # Tecnologias utilizadas:
+ JavaSprit, CSS,HTML
  
 
